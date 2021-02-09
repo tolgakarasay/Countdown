@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #945d62;
+}
+
+body {
+    background-image: url("./winter.jpg");
+    background-position: center top; 
+    background-size:1800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Crimson Text", sans-serif;
+}
+
+.countdown-container{
+    display: flex;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.big-text{
+    
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+
+.time-type{
+    
+    font-size: 1.3rem;
+}
+  
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 3.5rem;
+        font-weight: normal;
+    }
+        
+    .big-text{
+            
+        font-size: 4.5rem;
+        margin: 0 1.5rem;
+    }
+    
+    .time-type{
+        font-size: 1.5rem;
+    }
+
+    .countdown-container{
+        display: flex;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 3rem;
+        font-weight: normal;
+    }
+        
+    .big-text{
+            
+        font-size: 4rem;
+        margin: 0 2rem;
+    }
+    
+    .time-type{
+        font-size: 1rem;
+    }
+
+    .countdown-container{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    h1{
+        font-size: 2.7rem;
+        font-weight: normal;
+    }
+        
+    .big-text{
+            
+        font-size: 3.2rem;
+        margin: 0 2rem;
+    }
+    
+    .time-type{
+        font-size: 1.2rem;
+    }
+
+    .countdown-container{
+        display: block;
+        text-align: center;
+    }
+}
